@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { FaRunning, FaMicrophone, FaBell, FaClock, FaChartBar, FaRobot, FaQuestion } from 'react-icons/fa';
 
 const links = [
-  { path: "/", icon: <FaRunning />, label: "Descanso" },
+  { path: "/descanso", icon: <FaRunning />, label: "Descanso" },
   { path: "/voz", icon: <FaMicrophone />, label: "Voz" },
   { path: "/alerta", icon: <FaBell />, label: "Alerta" },
   { path: "/inactivo", icon: <FaClock />, label: "Inactivo" },
